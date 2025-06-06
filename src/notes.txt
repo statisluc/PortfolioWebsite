@@ -1,0 +1,20 @@
+Notes:
+Components: 
+Reuseable piece of code that can be used to build elements on the page
+Allows us to break down complex UIs, which makes them easier to maintain and scale
+Components can get props passed in and can hold their own state
+State:
+Represents the data that a component manages internally
+Could be form input data, fetched data, UI-related data like if a modal is openclose. Data that is expected to change
+There is also global state, which relates to the app as a whole and not a single component
+Hooks
+Allow us to use state and other React features within functional components (useState, useEffect, useRef, etc)
+JSX (JavaScript Syntax Extension)
+HTML-like syntax within JavaScript (components)
+SPA (Single Page App)
+Loads a single HTML file and JavaScript loads the entire UI including routes
+SSR (Server-Side Rendered)
+Server sends fully rendered page to client. you can fetch data and load it as well
+SSG (Static Site Generation)
+React generates static HTML files at build time. These are very fast 
+
