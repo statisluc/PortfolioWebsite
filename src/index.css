@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeup 1s ease-out both;
+  }
+  @keyframes fadeUp {
+    from {
+      opactiy: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
