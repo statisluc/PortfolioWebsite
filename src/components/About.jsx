@@ -6,10 +6,12 @@ function About() {
       <Card>
         <h2 className="text-3xl font-bold text-black mb-2">About</h2>
         <p className="text-lg text-gray-800">
-          I and possibnigng asndiwndoiawd asdsadasdasdsds
-          asdasdasdasdsaasdasdasdasdasdasdasdsd dasdasdasdasdasda sdasdasdasdas
-          dasdasdasdasdasdaasdasdasdasdasd
-          asdsadsadasdasdasdasdasdasdasdasdasdasddasdad
+          Education experience: Binghamton, WCC, WGU
+          <br />
+          Share passions on hobbies: computers since a young age, drawing
+          (include image section where one can click through your art)
+          <br />
+          Goals for the future or some cheesy shit
         </p>
       </Card>
     </div>

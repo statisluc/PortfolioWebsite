@@ -28,3 +28,19 @@ body {
   @apply font-sans overflow-x-hidden leading-none;
   overflow-x: hidden;
 }
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.card {
+  animation: appear 1s ease-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
