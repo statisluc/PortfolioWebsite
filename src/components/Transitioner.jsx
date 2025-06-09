@@ -1,25 +1,31 @@
 import { useEffect, useRef, useState } from "react";
 
 function SectionWrapper({ children, backgroundImage }) {
-  const [scrollY, setScrollY] = useState(0);
-  const ref = useRef();
+  const sectionRef = useRef();
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+      const rect = sectionRef.current?.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
 
+      if (rect) {
+        const distanceFromTop = Math.max(0, windowHeight - rect.top);
+        const sectionHeight = rect.height;
+
+        const sectionProgress = Math.min(1, distanceFromTop / sectionHeight);
+        setProgress(sectionProgress);
+      }
+    };
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scale = 1 + scrollY / 1000;
+  const scale = 1 + progress * 0.3;
 
   return (
-    <div ref={ref} className="relative overflow-hidden min-h-screen">
+    <div ref={sectionRef} className="relative overflow-hidden min-h-screen">
       {/* The background image */}
       <div
         className="absolute inset-0 bg-cover bg-center transition-all duration-500"

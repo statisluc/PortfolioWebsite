@@ -16,15 +16,13 @@ function App() {
               <Hero />
             </section>
           </Transitioner>
-        </main>
-        <main className="pt-16">
+
           <Transitioner backgroundImage="/spongeboy.png">
             <section id="about">
               <About />
             </section>
           </Transitioner>
-        </main>
-        <main className="pt-16">
+
           <Transitioner backgroundImage="/hank.jpg">
             <section id="projects">
               <Project />
