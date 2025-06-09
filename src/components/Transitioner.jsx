@@ -37,7 +37,7 @@ function SectionWrapper({ children, backgroundImage }) {
       ></div>
 
       {/* The gradient */}
-      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-black to-transparent z-10"></div>
+      {/* <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-black to-transparent z-10"></div> */}
 
       <div className="relative z-20">{children}</div>
     </div>

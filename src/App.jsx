@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Transitioner from "./components/Transitioner";
 import About from "./components/About";
 import Project from "./components/Project";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -26,6 +27,12 @@ function App() {
           <Transitioner backgroundImage="/hank.jpg">
             <section id="projects">
               <Project />
+            </section>
+          </Transitioner>
+
+          <Transitioner backgroundImage="/tyson.jpg">
+            <section id="resume">
+              <Resume />
             </section>
           </Transitioner>
         </main>
