@@ -4,6 +4,7 @@ import Transitioner from "./components/Transitioner";
 import About from "./components/About";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -33,6 +34,12 @@ function App() {
           <Transitioner backgroundImage="/tyson.jpg">
             <section id="resume">
               <Resume />
+            </section>
+          </Transitioner>
+
+          <Transitioner>
+            <section id="Contact">
+              <Contact />
             </section>
           </Transitioner>
         </main>
