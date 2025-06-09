@@ -30,6 +30,7 @@ function SectionWrapper({ children, backgroundImage }) {
   return (
     <div ref={sectionRef} className="relative overflow-hidden min-h-screen">
       {/* The background image */}
+      {/* see if its possible to add heavier blur to the top and bottom of the images so it kinda crossfades into one another like star wars */}
       <div
         className="absolute inset-0 bg-cover bg-center transition-all duration-500"
         style={{

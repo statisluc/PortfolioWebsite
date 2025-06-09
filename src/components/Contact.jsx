@@ -1,5 +1,7 @@
 import Card from "./Card.jsx";
 
+//use emailjs to have people contact you directly using this page
+
 function Contact() {
   return (
     <div className="w-full max-w-screen-md mx-auto px-4 min-h-screen flex flex-col justify-center text-center items-center">
