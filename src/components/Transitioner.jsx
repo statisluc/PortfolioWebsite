@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
+//next task:
+//must add blur effect to top and bottom of images so that when scrolling through, it blurs into one another (real smooth real sexy)
+
 function SectionWrapper({ children, backgroundImage }) {
   const sectionRef = useRef();
   const [progress, setProgress] = useState(0);
