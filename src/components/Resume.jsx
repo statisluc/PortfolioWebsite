@@ -11,7 +11,7 @@ function Resume() {
         <div className="w-[90vw] h-[60vh] overflow-y-scroll border border-gray-300 rounded">
           <img src="Alexander-E.F.-Valdez-Resume.jpg"></img>
         </div>
-        <div className="z-10000">
+        <div className="z-">
           <a
             href="Alexander-E.F.-Valdez-Resume.pdf"
             target="_blank"
