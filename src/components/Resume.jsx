@@ -8,21 +8,19 @@ function Resume() {
           Resume
         </h2>
 
-        <div className="w-[90vw] h-[70vh] overflow-y-scroll border border-gray-300 rounded">
-          <iframe
-            src="Alexander-E.F.-Valdez-Resume.pdf"
-            className="w-full h-full"
-            title="Resume"
-          />
+        <div className="w-[90vw] h-[60vh] overflow-y-scroll border border-gray-300 rounded">
+          <img src="Alexander-E.F.-Valdez-Resume.jpg"></img>
         </div>
-        <a
-          href="Alexander-E.F.-Valdez-Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 inline-flex items-center"
-        >
-          Open Resume In New Tab
-        </a>
+        <div className="z-10000">
+          <a
+            href="Alexander-E.F.-Valdez-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center"
+          >
+            Open Resume In New Tab
+          </a>
+        </div>
       </Card>
     </div>
   );
