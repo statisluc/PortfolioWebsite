@@ -19,19 +19,19 @@ function App() {
             </section>
           </Transitioner>
 
-          <Transitioner backgroundImage="/spongeboy.png">
+          <Transitioner backgroundImage="/school.png">
             <section id="about">
               <About />
             </section>
           </Transitioner>
 
-          <Transitioner backgroundImage="/hank.jpg">
+          <Transitioner backgroundImage="/super.png">
             <section id="projects">
               <Project />
             </section>
           </Transitioner>
 
-          <Transitioner backgroundImage="/tyson.jpg">
+          <Transitioner backgroundImage="/buillding.jpg">
             <section id="resume">
               <Resume />
             </section>

@@ -4,4 +4,34 @@ in the hamburger menu)
 
 for the projects, include super black jack, the terminal wheel of fortune game from the laptop, and you can 
 definitely make a quick gas price calculator app with instructions (then within the page/app say an updated more improved version
-with google maps api will be released soon)
+with google maps api will be released soon for android and iphone)
+
+
+about: photo of binghamton, wcc, and wgu together
+share how you started in premed, then computer science. interest in ios development while dabbling in cybersecurity for fun 
+
+
+projects: 
+super blackjack (development 70%)
+- SNES/PlayStation style blackjack game, blending classic casino style game with yu-gi-oh. 
+- "take a gamble each time you draw a card, clenching your teeth as you hope the next card deals the lethal blow to your opponent- or will 
+it hurt you instead? in this game of super blackjack, its your risk tolerance. too hasty, meet an early demise. play your cards right, you 
+might make it to the end... good luck"
+
+wheel of fortune (development 100%)
+- terminal wheel of fortune + hangman style game 
+"guess the letters of the word before your friend plunges into the deep waters
+-advertise a GUI potentially in the works
+
+gas price calculator app (react native, first project)
+- ever wondered how much a trip is going to cost you in gas? well look no further than here! Based on your car's MPG 
+(can manually insert or use API but less reliable) set your destination and the app will tell you how much the gas would cost you to get there
+need to split it with friends? no worries, built in calculator will let you determine how much gas each person pays!
+- right now, just set this as "Coming Soon" 
+
+resume: 
+fix that whole fucking page bro. and make download link for the resume too
+
+contact: 
+use that form thing like in those youtube videos with the emailjs bullshit thing 
+

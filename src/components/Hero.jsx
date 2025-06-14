@@ -5,7 +5,8 @@ function Hero() {
         Alexander E.F Valdez
       </h1>
       <p className="mt-4 text-lg sm:text-xl max-w-xl text-gray-300">
-        Computer Science Student With An Interest In Front-End Development
+        Computer Science Student With An Interest In iOS, Website, and Android
+        Development
         <p>(And All Things IT)</p>
       </p>
     </section>
