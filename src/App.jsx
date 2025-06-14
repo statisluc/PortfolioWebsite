@@ -12,7 +12,7 @@ function App() {
       <div className="bg-black text-white overflow-x-hidden">
         <Navbar />
 
-        <main className="pt-16">
+        <main className="pt-14">
           <Transitioner>
             <section id="hero">
               <Hero />
