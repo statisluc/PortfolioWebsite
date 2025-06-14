@@ -42,5 +42,5 @@ function Contact() {
     </div>
   );
 }
-
+// ok definitely include a (email successfully sent) pop up appear or something, and hell even a timeout on the button lmfao
 export default Contact;
