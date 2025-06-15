@@ -26,7 +26,12 @@
 // }
 import { useRef, useEffect, useState } from "react";
 
-export default function Card({ children, className = "" }) {
+export default function Card({
+  children,
+  className = "",
+  threshold = 0.1,
+  rootMargin = "0px",
+}) {
   const ref = useRef();
   const [visible, setVisible] = useState(false);
 
@@ -35,11 +40,11 @@ export default function Card({ children, className = "" }) {
       ([entry]) => {
         setVisible(entry.isIntersecting);
       },
-      { threshold: 1 }
+      { threshold, rootMargin }
     );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
-  }, []);
+  }, [threshold, rootMargin]);
 
   return (
     <div
