@@ -1,3 +1,7 @@
+fix: 
+- stupid resume card gets cut off. resume section doesnt get larger, card gets cut off.
+
+
 ADD footer that stays at the bottom of the page that contains linkedin and github link (for mobile, have these buttons 
 in the hamburger menu) 
 --or you can just have these buttons on the home page, that might actually look a good bit cleaner
