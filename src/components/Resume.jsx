@@ -2,8 +2,12 @@ import Card from "./Card";
 
 function Resume() {
   return (
-    <div className="w-full max-w-screen-md mx-auto px-4 min-h-screen flex flex-col sticky top-0 h-screen w-full flex justify-center items-center">
-      <Card threshold={0} rootMargin="100% 0px 100% 0px">
+    <div className="w-full overflow-y-auto max-w-screen-md mx-auto px-4 min-h-screen flex flex-col sticky top-0 flex justify-center items-center">
+      <Card
+        className="mt-20 mb-20"
+        threshold={0}
+        rootMargin="100% 0px 100% 0px"
+      >
         <h2 className="text-3xl font-bold text-black mb-4 text-center">
           Resume
         </h2>

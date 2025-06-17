@@ -1,6 +1,3 @@
-fix: 
-- stupid resume card gets cut off. resume section doesnt get larger, card gets cut off.
-
 
 ADD footer that stays at the bottom of the page that contains linkedin and github link (for mobile, have these buttons 
 in the hamburger menu) 
@@ -33,9 +30,4 @@ gas price calculator app (react native, first project)
 need to split it with friends? no worries, built in calculator will let you determine how much gas each person pays!
 - right now, just set this as "Coming Soon" 
 
-resume: 
-fix that whole fucking page bro. and make download link for the resume too
-
-contact: 
-use that form thing like in those youtube videos with the emailjs bullshit thing 
 

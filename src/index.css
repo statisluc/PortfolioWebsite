@@ -21,6 +21,9 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    body {
+      background-color: #000;
+    }
   }
 }
 
