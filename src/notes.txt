@@ -1,3 +1,5 @@
+try fixing how the top of each section gets cut off by the navbar. makes it look cheap and unclean. perhaps remove gradient effect?
+
 
 ADD footer that stays at the bottom of the page that contains linkedin and github link (for mobile, have these buttons 
 in the hamburger menu) 
