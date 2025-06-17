@@ -20,6 +20,26 @@ function Project() {
           </p>
         </Card>
       </div>
+      <div className="pt-8 max-w-[300px]">
+        <Card>
+          <p className="text-lg text-gray-800">
+            Quick little testand when you expand onto the note, we see how long
+            it goes and when you expand onto the note, we see how long it goes
+            and when you expand onto the note, we see how long it goes and when
+            you expand onto the note, we see how long it goes and when you
+            expand onto the note, we see how long it goesand when you expand
+            onto the note, we see how long it goes and when you expand onto the
+            note, we see how long it goes and when you expand onto the note, we
+            see how long it goes and when you expand onto the note, we see how
+            long it goes and when you expand onto the note, we see how long it
+            goesand when you expand onto the note, we see how long it goes and
+            when you expand onto the note, we see how long it goes and when you
+            expand onto the note, we see how long it goes and when you expand
+            onto the note, we see how long it goes and when you expand onto the
+            note, we see how long it goes
+          </p>
+        </Card>
+      </div>
     </div>
   );
 }
