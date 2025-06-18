@@ -13,7 +13,7 @@ function Resume() {
         </h2>
 
         <div className="w-[680px] h-[800px] overflow-y-scroll border border-gray-300 rounded flex justify-center items-center">
-          <img src="Alexander-E.F.-Valdez-Resume.jpg"></img>
+          <img src="Alexander-E.F.-Valdez-NoNumber.jpg"></img>
         </div>
         <div className="">
           <a
