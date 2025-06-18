@@ -12,7 +12,8 @@ function Navbar() {
       {/* via-black/(x) how dark...*/}
       {/* via-(x)% ...at which point*/}
       {/* <div className="py-6 fixed top-20 w-full z-50 bg-gradient-to-b from-black via-black/100 via-15% to-transparent"> */}
-      <nav className=" py-4 fixed top-0 w-full z-50 bg-gradient-to-b from-black via-black/100 via-80% to-transparent">
+      {/* <nav className=" py-4 fixed top-0 w-full z-50 bg-gradient-to-b from-black via-black/100 via-80% to-transparent"> */}
+      <nav className=" py-1 fixed top-0 w-full z-50 bg-black">
         <div className="container mx-auto px-4 py-4 relative">
           <button
             className="block md:hidden text-white focus:outline-none"

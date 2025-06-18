@@ -44,17 +44,17 @@ function ImageSlider() {
     return () => clearInterval(scrollInterval);
   }, [isPaused]);
 
-  const scrollLeft = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollLeft -= 300;
-    }
-  };
+  // const scrollLeft = () => {
+  //   if (containerRef.current) {
+  //     containerRef.current.scrollLeft -= 300;
+  //   }
+  // };
 
-  const scrollRight = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollLeft += 300;
-    }
-  };
+  // const scrollRight = () => {
+  //   if (containerRef.current) {
+  //     containerRef.current.scrollLeft += 300;
+  //   }
+  // };
 
   return (
     <div className="w-full mt-8">
