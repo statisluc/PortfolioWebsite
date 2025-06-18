@@ -1,4 +1,5 @@
 import Card from "./Card";
+import ImageSlider from "./ImageSlider";
 
 function About() {
   return (
@@ -13,6 +14,7 @@ function About() {
           <br />
           Goals for the future or some cheesy shit
         </p>
+        <ImageSlider />
       </Card>
     </div>
   );
