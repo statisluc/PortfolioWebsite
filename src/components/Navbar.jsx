@@ -116,6 +116,13 @@ function Navbar() {
             Projects
           </a>
           <a
+            href="#resume"
+            onClick={() => setMenuOpen(false)}
+            className="w-full text-center px-4 py-3 text-lg text-black border-b border-black last:border-b-0 transition transform hover:scale-105 active:bg-black active:text-white font-medium"
+          >
+            Resume
+          </a>
+          <a
             href="#Contact"
             onClick={() => setMenuOpen(false)}
             className="w-full text-center px-4 py-3 text-lg text-black border-b border-black last:border-b-0 transition transform hover:scale-105 active:bg-black active:text-white font-medium"

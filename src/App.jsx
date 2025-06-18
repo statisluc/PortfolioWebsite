@@ -26,13 +26,13 @@ function App() {
           </Transitioner>
 
           <Transitioner backgroundImage="/super.png">
-            <section id="projects">
+            <section id="projects" className="pt-24">
               <Project />
             </section>
           </Transitioner>
 
           <Transitioner backgroundImage="/buillding.jpg">
-            <section id="resume">
+            <section id="resume" className="pt-16">
               <Resume />
             </section>
           </Transitioner>
