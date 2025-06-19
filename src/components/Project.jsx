@@ -14,48 +14,64 @@ function Project() {
         </Card>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full mb-10">
-        <div className="pt-8 max-w-[300px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full mb-10">
+        <div className="pt-8 max-w-[700px]">
+          {/* Project 1 */}
           <Card>
-            <p className="text-lg text-gray-800">
-              Quick little test
-              <br />
-              and when you expand onto the note, we see how long it goes and
-              when you expand onto the note, we see how long it goes and when
-              you expand onto the note, we see how long it goes and when you
-              expand onto the note, we see how long it goes and when you expand
-              onto the note, we see how long it goes
+            <img
+              src="/blackjack.png"
+              alt="Cover of Super-BlackJack"
+              className="rounded-lg"
+            ></img>
+            <a
+              href="https://snessuperblackjack.netlify.app"
+              className="text-black mt-4 block"
+              target="_blank"
+            >
+              Click Here To Play!
+            </a>
+          </Card>
+        </div>
+        <div className="pt-8 max-w-[700px]">
+          {/* Project 2 */}
+          <Card>
+            <img
+              src="/wheelfortune.png"
+              alt="Cover of Wheel of Fortune Game"
+              className="rounded-lg"
+            ></img>
+            <a
+              href="https://github.com/statisluc/Wheel-Of-Fortune-Terminal-Game/blob/main/wheel_of_fortune.py"
+              className="text-black mt-4 block"
+              target="_blank"
+            >
+              Click Here For GitHub Repository!
+            </a>
+          </Card>
+        </div>
+        <div className="pt-8 max-w-[700px]">
+          {/* Project 3 */}
+          <Card>
+            <img
+              src="gasulator.png"
+              alt="Cover Page of Gasulator App"
+              className="rounded-lg"
+            ></img>
+            <p className="text-lg text-gray-800 font-bold mt-4 block">
+              COMING OUT SOON
             </p>
           </Card>
         </div>
-        <div className="pt-8 max-w-[300px]">
+        <div className="pt-8 max-w-[700px]">
+          {/* Project 4 */}
           <Card>
-            <p className="text-lg text-gray-800">
-              Quick little testand when you expand onto the note, we see how
-              long it goes and when you expand onto the note, we see how long it
-              goes and when you expand onto the note, we see how long it goes
-              and when you expand onto the note, we see how long it goes and
-              when you expand onto the note, we see how long it goesand when you
-              expand onto the note, we see how long it goes and when you expand
-              onto the note, we see how long it goes and when you expand onto
-              the note, we see how long it goes and when you expand onto the
-              note, we see how long it goes and when you expand onto the note,
-              we see how long it goesand when you expand onto the note, we see
-              how long it goes and when you expand onto the note, we see how
-              long it goes and when you expand onto the note, we see how long it
-              goes and when you expand onto the note, we see how long it goes
-              and when you expand onto the note, we see how long it goes
-            </p>
-          </Card>
-        </div>
-        <div className="pt-8 max-w-[300px]">
-          <Card>
-            <p className="text-lg text-gray-800">
-              Quick test random computer programming jargon like array list note
-              tuple jargon like array list note tuplejargon like array list note
-              tuplejargon like array list note tuplejargon like array list note
-              tuplejargon like array list note tuplejargon like array list note
-              tuplejargon like array list note tuple
+            <img
+              src="blackjackmobile.png"
+              alt="Cover Page of BlackJack Mobile"
+              className="rounded-lg"
+            ></img>
+            <p className="text-lg text-gray-800 font-bold mt-4 block">
+              COMING OUT SOON
             </p>
           </Card>
         </div>
