@@ -1,4 +1,6 @@
-
+look back on desktop notes to fix the imagesliding scroll quite literally breaking the whole website
+fix the Project layout. maybe instead of using grid, have two separate columns? that way smaller iamges dont leave a gap nex to them
+add the hover effect from this video: https://www.youtube.com/watch?v=tF3RE5CGt9U 
 
 ADD footer that stays at the bottom of the page that contains linkedin and github link (for mobile, have these buttons 
 in the hamburger menu) 
