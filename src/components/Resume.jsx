@@ -17,7 +17,7 @@ function Resume() {
         </div>
         <div className="">
           <a
-            href="Alexander-E.F.-Valdez-Resume.pdf"
+            href="Alexander-E.F.-Valdez-NoNumber.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-flex items-center text-blue-500 justify-center text-center"

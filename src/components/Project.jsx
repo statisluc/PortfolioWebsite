@@ -3,11 +3,13 @@ import Card from "./Card";
 function Project() {
   return (
     <div className="w-full max-w-screen-md mx-auto px-4 min-h-screen flex flex-col justify-center text-center items-center">
-      <div className="mt-10 w-full">
+      <div className="w-full">
         <Card>
           <h2 className="text-3xl font-bold text-black mb-2">Projects</h2>
           <p className="text-lg text-gray-800">
-            I dont know what to do no more
+            Below are a couple of my{" "}
+            <span className="font-semibold">Personal Projects</span>, each with
+            their GitHub link or product link.
           </p>
         </Card>
       </div>
