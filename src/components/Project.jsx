@@ -9,7 +9,7 @@ function Project() {
           <p className="text-lg text-gray-800">
             Below are a couple of my{" "}
             <span className="font-semibold">Personal Projects</span>, each with
-            their GitHub link or product link.
+            their GitHub link or Product link.
           </p>
         </Card>
       </div>
