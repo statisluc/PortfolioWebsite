@@ -74,10 +74,10 @@ function ImageSlider() {
       </div>
       <div
         ref={containerRef}
-        className="flex space-x-4 overflow-x-auto scrollbar-hide"
+        className="flex space-x-4 overflow-hidden scrollbar-hide"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
-        style={{ scrollBehavior: "smooth" }}
+        style={{ scrollBehavior: "smooth", pointerEvents: "none" }}
       >
         {images.map((img, index) => (
           <img
@@ -85,6 +85,7 @@ function ImageSlider() {
             src={img}
             alt={`Artwork ${index + 1}`}
             className="h-48 rounded shadow-md flex-shrink-0"
+            draggable={false}
           />
         ))}
       </div>
