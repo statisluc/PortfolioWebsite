@@ -14,12 +14,12 @@ function ImageSlider() {
   const images = [image1, image2, image3, image4, image5, image6, image7];
 
   useEffect(() => {
-    const container = containerRef.current;
-    if (!container) return;
+    // const container = containerRef.current;
+    // if (!container) return;
 
-    container.innerHTML += container.innerHTML;
+    // container.innerHTML += container.innerHTML;
 
-    let scrollInterval;
+    // let scrollInterval;
 
     // const startScrolling = () => {
     //   scrollInterval = setInterval(() => {
@@ -28,21 +28,21 @@ function ImageSlider() {
     //     }
     //   }, 16); // ~60fps
     // };
-    const startScrolling = () => {
-      scrollInterval = setInterval(() => {
-        if (!isPaused && containerRef.current) {
-          container.scrollLeft += 1;
-          if (container.scrollLeft >= container.scrollWidth / 2) {
-            container.scrollLeft = 0;
-          }
-        }
-      }, 16);
-    };
+  //   const startScrolling = () => {
+  //     scrollInterval = setInterval(() => {
+  //       if (!isPaused && containerRef.current) {
+  //         container.scrollLeft += 1;
+  //         if (container.scrollLeft >= container.scrollWidth / 2) {
+  //           container.scrollLeft = 0;
+  //         }
+  //       }
+  //     }, 16);
+  //   };
 
-    startScrolling();
+  //   startScrolling();
 
-    return () => clearInterval(scrollInterval);
-  }, [isPaused]);
+  //   return () => clearInterval(scrollInterval);
+  // }, [isPaused]);
 
   // const scrollLeft = () => {
   //   if (containerRef.current) {
@@ -57,22 +57,22 @@ function ImageSlider() {
   // };
 
   return (
-    <div className="w-full mt-8">
-      <div className="flex justify-between items-center mb-2">
-        {/* <button
-          className="px-3 py-1 bg-black text-white rounded hover:bg-gray-800 transition"
-          onClick={scrollLeft}
-        >
-          ← Prev
-        </button>
-        <button
-          className="px-3 py-1 bg-black text-white rounded hover:bg-gray-800 transition"
-          onClick={scrollRight}
-        >
-          Next →
-        </button> */}
-      </div>
-      <div
+    // <div className="w-full mt-8">
+    //   <div className="flex justify-between items-center mb-2">
+    //     {/* <button
+    //       className="px-3 py-1 bg-black text-white rounded hover:bg-gray-800 transition"
+    //       onClick={scrollLeft}
+    //     >
+    //       ← Prev
+    //     </button>
+    //     <button
+    //       className="px-3 py-1 bg-black text-white rounded hover:bg-gray-800 transition"
+    //       onClick={scrollRight}
+    //     >
+    //       Next →
+    //     </button> */}
+    //   </div>
+    //   <div
         ref={containerRef}
         className="flex space-x-4 overflow-hidden scrollbar-hide"
         onMouseEnter={() => setIsPaused(true)}
@@ -84,7 +84,7 @@ function ImageSlider() {
             key={index}
             src={img}
             alt={`Artwork ${index + 1}`}
-            className="h-48 rounded shadow-md flex-shrink-0"
+            className="h-48 rounded shadow-md flex-shrink-0 select-none"
             draggable={false}
           />
         ))}
