@@ -1,6 +1,6 @@
+add image hover effect to your other projects!!
 
-add the hover effect from this video: https://www.youtube.com/watch?v=tF3RE5CGt9U 
-make the imageslider slower. also see about changing the font or making the text bolder for the "Click Here" sections
+
 fix weird Home button gap for mobile 
 honestly just fix the mobile layout period 
 
