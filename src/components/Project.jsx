@@ -117,7 +117,7 @@ function Project() {
               imgsrc="boxer.png"
               imgalt="Cover Page of Boxing App"
               overlayText="Coming Soon for iOS Devices!"
-              ctaText="COMING OUT"
+              ctaText="COMING OUT SOON"
               ctaclassName="text-black text-gray-800 text-lg font-bold mt-4 block"
             />
           </div>
