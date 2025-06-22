@@ -19,7 +19,7 @@ function Project() {
         <div className="flex flex-col space-y-6 sm:w-1/2">
           <div className="pt-8 max-w-[700px]">
             {/* Project 1 */}
-            <Card>
+            {/* <Card>
               <img
                 src="/blackjack.png"
                 alt="Cover of Super-BlackJack"
@@ -32,12 +32,20 @@ function Project() {
               >
                 Click Here To Play!
               </a>
-            </Card>
+            </Card> */}
+            <CardWrapper
+              imgsrc="blackjack.png"
+              imgalt="Cover of Super-BlackJack"
+              overlayText="INSERT DESCRIPTION"
+              ctaText="Click Here To Play!"
+              href="https://snessuperblackjack.netlify.app"
+              ctaclassName="mt-4 block bg-blue-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-blue-800 focus:outline-none transition-colors duration-200"
+            />
           </div>
 
           <div className="pt-8 max-w-[700px]">
             {/* Project 2 */}
-            <Card>
+            {/* <Card>
               <img
                 src="gasulator.png"
                 alt="Cover Page of Gasulator App"
@@ -46,14 +54,21 @@ function Project() {
               <p className="text-lg text-gray-800 font-bold mt-4 block">
                 COMING OUT SOON
               </p>
-            </Card>
+            </Card> */}
+            <CardWrapper
+              imgsrc="gasulator.png"
+              imgalt="Cover of Gasulator App"
+              overlayText="Coming Soon for Android and iOS Devices!"
+              ctaText="COMING OUT SOON"
+              ctaclassName="text-black text-gray-800 text-lg font-bold mt-4 block"
+            />
           </div>
         </div>
 
         <div className="flex flex-col space-y-6 sm:w-1/2 mt-6 sm:mt-0">
           <div className="pt-8 max-w-[700px]">
             {/* Project 3 */}
-            <Card>
+            {/* <Card>
               <img
                 src="/wheelfortune.png"
                 alt="Cover of Wheel of Fortune Game"
@@ -66,11 +81,19 @@ function Project() {
               >
                 Click Here For GitHub Repository!
               </a>
-            </Card>
+            </Card> */}
+            <CardWrapper
+              imgsrc="wheelfortune.png"
+              imgalt="Cover of Wheel Of Fortune Game"
+              overlayText="INSERT DESCRIPTION HERE"
+              ctaText="Click Here For Github Repository!"
+              href="https://github.com/statisluc/Wheel-Of-Fortune-Terminal-Game/blob/main/wheel_of_fortune.py"
+              ctaclassName="text-white mt-4 block bg-gray-500 font-bold px-6 py-3 rounded-full shadow-md hover:bg-gray-600 focus:outline-none transition-colors duration-200"
+            />
           </div>
           <div className="pt-8 max-w-[700px]">
             {/* Project 4 */}
-            <Card>
+            {/* <Card>
               <img
                 src="blackjackmobile.png"
                 alt="Cover Page of BlackJack Mobile"
@@ -79,15 +102,22 @@ function Project() {
               <p className="text-lg text-gray-800 font-bold mt-4 block">
                 COMING OUT SOON
               </p>
-            </Card>
+            </Card> */}
+            <CardWrapper
+              imgsrc="blackjackmobile.png"
+              imgalt="Cover Page of BlackJack Mobile"
+              overlayText="Coming Soon For iOS Devices!"
+              ctaText="COMING OUT SOON"
+              ctaclassName="text-black text-gray-800 text-lg font-bold mt-4 block"
+            />
           </div>
           <div className="pt-8 max-w-[700px]">
             {/* Project 5 */}
             <CardWrapper
               imgsrc="boxer.png"
               imgalt="Cover Page of Boxing App"
-              overlayText="Blah Blah: COMING OUT SOON"
-              ctaText="ITS ALIVEEEEEEE"
+              overlayText="Coming Soon for iOS Devices!"
+              ctaText="COMING OUT"
               ctaclassName="text-black text-gray-800 text-lg font-bold mt-4 block"
             />
           </div>
