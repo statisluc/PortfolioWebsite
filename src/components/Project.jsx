@@ -1,4 +1,5 @@
 import Card from "./Card";
+import CardWrapper from "./CardWrapper";
 
 function Project() {
   return (
@@ -26,7 +27,7 @@ function Project() {
               ></img>
               <a
                 href="https://snessuperblackjack.netlify.app"
-                className="text-black mt-4 block"
+                className="text-black mt-4 block bg-blue-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-blue-800 focus:outline-none transition-colors duration-200"
                 target="_blank"
               >
                 Click Here To Play!
@@ -60,7 +61,7 @@ function Project() {
               ></img>
               <a
                 href="https://github.com/statisluc/Wheel-Of-Fortune-Terminal-Game/blob/main/wheel_of_fortune.py"
-                className="text-black mt-4 block"
+                className="text-black mt-4 block bg-gray-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-gray-600 focus:outline-none transition-colors duration-200"
                 target="_blank"
               >
                 Click Here For GitHub Repository!
@@ -79,6 +80,16 @@ function Project() {
                 COMING OUT SOON
               </p>
             </Card>
+          </div>
+          <div className="pt-8 max-w-[700px]">
+            {/* Project 5 */}
+            <CardWrapper
+              imgsrc="boxer.png"
+              imgalt="Cover Page of Boxing App"
+              overlayText="Blah Blah: COMING OUT SOON"
+              ctaText="ITS ALIVEEEEEEE"
+              ctaclassName="text-black text-gray-800 text-lg font-bold mt-4 block"
+            />
           </div>
         </div>
       </div>

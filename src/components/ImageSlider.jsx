@@ -20,7 +20,7 @@ function ImageSlider() {
     from {transform: translateX(0);}
     to {transform: translateX(-50%);
     }}.animate-slider{
-    animation: scrollSlider 20s linear infinite;
+    animation: scrollSlider 60s linear infinite;
     }`;
     document.head.appendChild(style);
     return () => document.head.removeChild(style);
