@@ -12,8 +12,11 @@ function Resume() {
           Resume
         </h2>
 
-        <div className="w-[680px] h-[800px] overflow-y-scroll border border-gray-300 rounded flex justify-center items-center">
-          <img src="Alexander-E.F.-Valdez-NoNumber.jpg"></img>
+        <div className="w-full sm:w-[680px] h-[70vh] sm:h-[800px] overflow-y-auto border border-gray-300 rounded flex justify-center items-center">
+          <img
+            src="Alexander-E.F.-Valdez-NoNumber.jpg"
+            alt="Alexander Valdez Resume"
+          ></img>
         </div>
         <div className="">
           <a

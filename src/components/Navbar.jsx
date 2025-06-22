@@ -94,7 +94,7 @@ function Navbar() {
           menuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="flex flex-col pt-6">
+        <div className="flex flex-col">
           <a
             href="#hero"
             onClick={() => setMenuOpen(false)}

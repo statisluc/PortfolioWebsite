@@ -98,3 +98,19 @@ body {
 .contact-form input[type="submit"]:hover {
   background-color: #16a34a; /* Tailwind green-600 */
 }
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(20px);
+    opacity: 1;
+  }
+}
+
+.breathe {
+  animation: breathe 2.5s ease-in-out infinite;
+}

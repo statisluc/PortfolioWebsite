@@ -36,7 +36,7 @@ function Project() {
             <CardWrapper
               imgsrc="blackjack.png"
               imgalt="Cover of Super-BlackJack"
-              overlayText="INSERT DESCRIPTION"
+              overlayText="Select your character and duel your opponent with this twist on the famous card game of Blackjack"
               ctaText="Click Here To Play!"
               href="https://snessuperblackjack.netlify.app"
               ctaclassName="mt-4 block bg-blue-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-blue-800 focus:outline-none transition-colors duration-200"
@@ -85,7 +85,7 @@ function Project() {
             <CardWrapper
               imgsrc="wheelfortune.png"
               imgalt="Cover of Wheel Of Fortune Game"
-              overlayText="INSERT DESCRIPTION HERE"
+              overlayText="Check out the code behind one of my first school projects. Terminal game of Wheel of Fortune"
               ctaText="Click Here For Github Repository!"
               href="https://github.com/statisluc/Wheel-Of-Fortune-Terminal-Game/blob/main/wheel_of_fortune.py"
               ctaclassName="text-white mt-4 block bg-gray-500 font-bold px-6 py-3 rounded-full shadow-md hover:bg-gray-600 focus:outline-none transition-colors duration-200"
@@ -106,7 +106,7 @@ function Project() {
             <CardWrapper
               imgsrc="blackjackmobile.png"
               imgalt="Cover Page of BlackJack Mobile"
-              overlayText="Coming Soon For iOS Devices!"
+              overlayText="Coming Soon for iOS Devices!"
               ctaText="COMING OUT SOON"
               ctaclassName="text-black text-gray-800 text-lg font-bold mt-4 block"
             />

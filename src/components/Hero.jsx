@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="w-full max-w-screen-md mx-auto px-4 min-h-screen flex flex-col items-center justify-center text-center">
+    <section className="relative w-full max-w-screen-md mx-auto px-4 min-h-screen flex flex-col items-center justify-center text-center">
       <h1 className="text-5xl sm:text-6xl font-bold tracking-tight text-white">
         Alexander E.F Valdez
       </h1>
@@ -9,6 +9,22 @@ function Hero() {
         Development
         <p>(And All Things IT)</p>
       </p>
+
+      <div className="absolute bottom-32 text-white breathe">
+        <svg
+          className="w-12 h-12"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLineCap="round"
+            strokeLinejoin="round"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </div>
     </section>
   );
 }
