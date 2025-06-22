@@ -4,7 +4,7 @@ import ImageSlider from "./ImageSlider";
 function About() {
   return (
     <div className="w-full  mx-auto px-4 min-h-screen flex flex-col justify-center items-center text-center">
-      <div className="pt-8 pb-8 max-w-[2000px] max-h-full">
+      <div className="w-full flex flex-col items-center overflow-x-hidden mx-auto pt-8 pb-8 sm:max-w-[2000px] max-h-full">
         <Card>
           <h2 className="text-3xl font-bold text-black mb-2">About</h2>
           <p className="text-lg text-gray-800">
