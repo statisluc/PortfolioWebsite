@@ -8,10 +8,11 @@ function About() {
         <Card>
           <h2 className="text-3xl font-bold text-black mb-2">About</h2>
           <p className="text-lg text-gray-800">
-            Hey - my name is Alexander Valdez and I am a computer science
-            student with a passion for building sleek and intuitive experiences.
-            Whether it is web design or iOS development, I truly take pride in
-            bringing ideas to life through my code.
+            Hey - my name is Eleassar Famutimi Valdez, also known as Alexander,
+            and I am a computer science student with a passion for building
+            sleek and intuitive experiences. Whether it is web design or iOS
+            development, I truly take pride in bringing ideas to life through my
+            code.
             <br />
             My academic journey began in the world of pre-med - more
             specifically biology at{" "}
