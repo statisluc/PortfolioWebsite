@@ -45,7 +45,7 @@ function Project() {
 
           <div className="pt-8 max-w-[700px]">
             <CardWrapper
-              imgsrc=""
+              imgsrc="freelancesite.png"
               imgalt="Cover of Freelance Website"
               overlayText="Need a Website? You've Come To The Right Place"
               ctaText="Freelance Site"
