@@ -44,6 +44,17 @@ function Project() {
           </div>
 
           <div className="pt-8 max-w-[700px]">
+            <CardWrapper
+              imgsrc=""
+              imgalt="Cover of Freelance Website"
+              overlayText="Need a Website? You've Come To The Right Place"
+              ctaText="Freelance Site"
+              href="google.com"
+              ctaclassName="mt-4 block bg-gradient-to-br from-pink-500 to-orange-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-pink-800 focus:outline-none transition-colors duration-200"
+            />
+          </div>
+
+          <div className="pt-8 max-w-[700px]">
             {/* Project 2 */}
             {/* <Card>
               <img
